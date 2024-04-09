@@ -1,0 +1,102 @@
+{
+  "conferences": [
+    {
+      "name": "Eastern Conference",
+      "teams": [
+        "Team 1",
+        "Team 2",
+        "Team 3",
+        "Team 4",
+        "Team 5",
+        "Team 6",
+        "Team 7",
+        "Team 8"
+      ],
+      "bracket": {
+        "rounds": [
+          {
+            "round_number": 1,
+            "matches": [
+              {"match_number": 1, "team1": "Team 1", "team2": "Team 8"},
+              {"match_number": 2, "team1": "Team 2", "team2": "Team 7"},
+              {"match_number": 3, "team1": "Team 3", "team2": "Team 6"},
+              {"match_number": 4, "team1": "Team 4", "team2": "Team 5"}
+            ]
+          },
+          {
+            "round_number": 2,
+            "matches": [
+              {"match_number": 1, "team1": "Winner of Match 1", "team2": "Winner of Match 4"},
+              {"match_number": 2, "team1": "Winner of Match 2", "team2": "Winner of Match 3"}
+            ]
+          },
+          {
+            "round_number": 3,
+            "matches": [
+              {"match_number": 1, "team1": "Winner of Round 2, Match 1", "team2": "Winner of Round 2, Match 2"}
+            ]
+          },
+          {
+            "round_number": 4,
+            "matches": [
+              {"match_number": 1, "team1": "Winner of Round 3, Match 1", "team2": "Winner of Round 3, Match 1"}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Western Conference",
+      "teams": [
+        "Team A",
+        "Team B",
+        "Team C",
+        "Team D",
+        "Team E",
+        "Team F",
+        "Team G",
+        "Team H"
+      ],
+      "bracket": {
+        "rounds": [
+          {
+            "round_number": 1,
+            "matches": [
+              {"match_number": 1, "team1": "Team A", "team2": "Team H"},
+              {"match_number": 2, "team1": "Team B", "team2": "Team G"},
+              {"match_number": 3, "team1": "Team C", "team2": "Team F"},
+              {"match_number": 4, "team1": "Team D", "team2": "Team E"}
+            ]
+          },
+          {
+            "round_number": 2,
+            "matches": [
+              {"match_number": 1, "team1": "Winner of Match 1", "team2": "Winner of Match 4"},
+              {"match_number": 2, "team1": "Winner of Match 2", "team2": "Winner of Match 3"}
+            ]
+          },
+          {
+            "round_number": 3,
+            "matches": [
+              {"match_number": 1, "team1": "Winner of Round 2, Match 1", "team2": "Winner of Round 2, Match 2"}
+            ]
+          },
+          {
+            "round_number": 4,
+            "matches": [
+              {"match_number": 1, "team1": "Winner of Round 3, Match 1", "team2": "Winner of Round 3, Match 1"}
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "finals": [
+    {
+      "match_number": 1,
+      "team1": "Winner of Eastern Conference",
+      "team2": "Winner of Western Conference"
+    }
+  ]
+}
+
